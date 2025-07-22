@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="HTML All Tags Example">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML All Tags Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    header, footer {
+      background-color: #f4d9d9;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: blue;
+    }
+    table, th, td {
+      border: 1px solid rgb(18, 14, 14);
+      border-collapse: collapse;
+    }
+    table {
+      width: 50%;
+      margin: 10px 0;
+    }
+    tfoot td{
+      text-align:center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Dween's HTML Playground</h1>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#contact">Contact</a>|
+      <a href="#content">Content</a>
+    </nav>
+    <main>
+      <p id="content"></p>
+    </main>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About HTML</h2>
+      <p><b>HTML</b> stands for <i>HyperText Markup Language</i>. It is used to create web pages.</p>
+      <p>This is an <mark>important</mark> paragraph with <span style="color:red;">colored text</span>.</p>
+    </section>
+
+    <article>
+      <h3>HTML List Examples</h3>
+      <p>Unordered List:</p>
+      <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+      </ul>
+
+      <p>Ordered List:</p>
+      <ol>
+        <li>Wake up</li>
+        <li>Brush teeth</li>
+        <li>Eat breakfast</li>
+      </ol>
+
+      <p>Definition List:</p>
+      <dl>
+        <dt>HTML</dt>
+        <dd>A markup language for web pages.</dd>
+        <dt>CSS</dt>
+        <dd>Used to style web pages.</dd>
+      </dl>
+    </article>
+
+ <h3>HTML Table Example</h3>
+  <table border="1">
+    <caption>Student Grades</caption>
+
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Grade</th>
+        <th>Remarks</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Dween</td>
+        <td>A+</td>
+        <td>Excellent</td>
+      </tr>
+      <tr>
+        <td>Ayesha</td>
+        <td>A</td>
+        <td>Very Good</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="3">2 Students Total</td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+
+
+    <section>
+      <h3>HTML Form Example</h3>
+      <form>
+        <level for="name">Name: </level>
+        <input type="text" id="name" placeholder="Type Your Name."><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email." required="true"><br><br>
+
+         <p>Enter your Date of Birth.</p>
+         <level for="date">DOB: </level>
+         <input type="date" id="date"><br><br>
+
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" id="coding" name="hobby" value="Coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="reading" name="hobby" value="Reading">
+        <label for="reading">Reading</label><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="bd">Bangladesh</option>
+          <option value="us">USA</option>
+          <option value="uk">UK</option>
+        </select><br><br>
+
+        File : <input type="file"><br><br>
+        <button type="submit">Submit</button>
+
+        <p>Write here how we can improve </p>
+        <textarea rows="5" cols="50">write here.</textarea>
+
+      </form>
+    </section>
+
+    <section>
+      <h3>HTML Multimedia</h3>
+      <p>Image:</p>
+      <img src="https://via.placeholder.com/150" alt=" Image" width="150">
+
+      <p>Audio:</p>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+
+      <p>Video:</p>
+      <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>I frame example: </p>
+    <iframe width="480" height="360" src="https://www.youtube-nocookie.com/embed/or8LyI2eneg?si=kl5uBxAQcLK43v7i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </section>
+
+    <aside>
+      <h3>Did You Know?</h3>
+      <p>HTML was first introduced in 1991!</p>
+    </aside>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <ul>
+        <li><strong>Phone:</strong> 01963913619</li>
+        <li><strong>Email:</strong> dween.gk@gmail.com</li>
+      </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Dween's Website |  
+      <a href="mailto:dween.gk@gmail.com">Email Me</a>
+</p>
+
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!-- Declares HTML5 version -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Character encoding (supports all languages) -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Makes page responsive on mobile devices -->
+
+  <title>All HTML Tags Example</title>
+  <!-- Shown in browser tab -->
+
+  <base href="https://example.com/">
+  <!-- Base URL for all relative links -->
+
+  <meta name="description" content="This page contains all usable HTML tags.">
+  <meta name="author" content="Dween">
+</head>
+
+<body>
+
+  <!-- ========== HEADINGS ========== -->
+  <h1>This is H1</h1>
+  <h2>This is H2</h2>
+  <h3>This is H3</h3>
+  <h4>This is H4</h4>
+  <h5>This is H5</h5>
+  <h6>This is H6</h6>
+
+  <!-- ========== TEXT TAGS ========== -->
+  <p>This is a paragraph.</p>
+  <b>Bold Text</b><br>
+  <i>Italic Text</i><br>
+  <u>Underlined Text</u><br>
+  <mark>Highlighted Text</mark><br>
+  <small>Small Text</small><br>
+  <strong>Strong Text (important)</strong><br>
+  <em>Emphasized Text</em><br>
+  <del>Deleted Text</del><br>
+  <ins>Inserted Text</ins><br>
+  <sub>Subscript (H<sub>2</sub>O)</sub><br>
+  <sup>Superscript (x<sup>2</sup>)</sup><br>
+  <abbr title="HyperText Markup Language">HTML</abbr><br>
+  <cite>Book Title</cite><br>
+  <q>Short Quote</q><br>
+  <blockquote>This is a long quote.</blockquote>
+  <code>This is code text</code><br>
+  <pre>
+    Preformatted text
+    keeps spaces & line breaks
+  </pre>
+
+  <!-- ========== LINKS ========== -->
+  <a href="https://google.com" target="_blank">Go to Google</a><br>
+
+  <!-- ========== LISTS ========== -->
+  <h3>Unordered List</h3>
+  <ul>
+    <li>Item A</li>
+    <li>Item B</li>
+  </ul>
+
+  <h3>Ordered List</h3>
+  <ol>
+    <li>Step 1</li>
+    <li>Step 2</li>
+  </ol>
+
+  <h3>Description List</h3>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+  </dl>
+
+  <!-- ========== IMAGE & MEDIA ========== -->
+  <img src="https://via.placeholder.com/100" alt="Sample Image"><br>
+  <audio controls>
+    <source src="sample.mp3" type="audio/mpeg">
+  </audio><br>
+  <video width="300" controls>
+    <source src="sample.mp4" type="video/mp4">
+  </video><br>
+  <iframe src="https://example.com" width="300" height="200" title="Iframe Example"></iframe>
+
+  <!-- ========== TABLE ========== -->
+  <h3>Table</h3>
+  <table border="1">
+    <caption>Student Info</caption>
+    <thead>
+      <tr><th>Name</th><th>Age</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Dween</td><td>20</td></tr>
+      <tr><td>Bob</td><td>25</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><td colspan="2">End of Table</td></tr>
+    </tfoot>
+  </table>
+
+  <!-- ========== FORM ELEMENTS ========== -->
+  <h3>Form</h3>
+  <form action="/submit" method="POST">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <label for="subscribe">Subscribe me</label><br>
+
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br>
+
+    <label for="msg">Message:</label><br>
+    <textarea id="msg" name="msg" rows="3" cols="30"></textarea><br>
+
+    <label for="color">Pick Color:</label>
+    <input type="color" id="color" name="color"><br>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br>
+
+    <label for="file">Upload File:</label>
+    <input type="file" id="file" name="file"><br>
+
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+      <option value="volvo">Volvo</option>
+      <option value="bmw">BMW</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+
+  <!-- ========== SEMANTIC ELEMENTS ========== -->
+  <header>
+    <h2>This is the header</h2>
+  </header>
+
+  <nav>
+    <p>Navigation links go here</p>
+  </nav>
+
+  <section>
+    <h3>This is a section</h3>
+    <p>Group of related content</p>
+  </section>
+
+  <article>
+    <h3>This is an article</h3>
+    <p>Independent content</p>
+  </article>
+
+  <aside>
+    <p>Sidebar or side info</p>
+  </aside>
+
+  <figure>
+    <img src="https://via.placeholder.com/80" alt="Figure">
+    <figcaption>This is a caption</figcaption>
+  </figure>
+
+  <footer>
+    <p>This is the footer</p>
+  </footer>
+
+  <!-- ========== OTHERS ========== -->
+  <details>
+    <summary>Click to Expand</summary>
+    <p>More hidden details...</p>
+  </details>
+
+  <dialog open>
+    <p>This is a dialog box</p>
+  </dialog>
+
+  <hr>
+  <!-- Horizontal line -->
+
+  <br>
+  <!-- Line break -->
+
+  <wbr>
+  <!-- Word break opportunity -->
+
+  <!-- Invisible Comment (also used to hide secret text) -->
+  <!-- Flag: flag{all_tags_mastered} -->
+
+</body>
+</html>
