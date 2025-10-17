@@ -1,0 +1,28 @@
+*{
+
+  margin: 0px;
+  padding: 0px;
+ 
+}
+body{
+   background: #dff9fb;
+}
+.parent{
+  background-color:  #e15f41;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+}
+.child{
+  background-color: #6ab04c;
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  padding: 50px;
+}

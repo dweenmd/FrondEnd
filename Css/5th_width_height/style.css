@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: #ffcccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrent {
+  width: 60vw;
+  height: 70vh;
+  margin: 20px auto;
+  aspect-ratio: 16/9; /* Maintains a 4:3 ratio */
+  background-color: #4fd2e9;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  max-width: 900px;
+  min-width: 320px;
+}

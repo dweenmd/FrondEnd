@@ -1,0 +1,23 @@
+*{
+    margin:0%;
+    padding: 0%;
+
+}
+body{
+    background: #c2ceff;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+.one{
+    text-align: justify;
+    text-align-last: center;
+    writing-mode:vertical-lr;
+}
+.two{
+    margin-top: 20px;
+    text-align: left;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}

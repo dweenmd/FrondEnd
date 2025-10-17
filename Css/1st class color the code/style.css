@@ -1,0 +1,54 @@
+/*
+here h1=selector,color=property,red=value
+* => universal selector
+. => class selector
+# => id selector
+, => group maker
+
+*/
+h1{
+    color:rgb(4, 152, 103);
+    font-family:sans-serif;  /* declaration */
+    font-size: 60 px;
+}
+p{
+    
+    color: rgb(0, 1, 1);
+    font-size: 15px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(242, 246, 11);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* working in first div id ,# diya suru korte hobe*/
+#first_div_id{
+    background-color: chartreuse;
+}
+/* working in first div class*/
+
+.first-div {
+    background: rgb(203, 149, 149);
+
+}
+/* text change in  first div*/
+.first-div p{
+
+    color: rgb(252, 249, 249); /* white text */
+}
+/* working in second div*/
+.second-div{
+    background-color: aquamarine;
+    text-align: center;
+    text-shadow: 2px;
+}
+/*working on third div*/
+.third-div{
+    background-color: cadetblue;
+}
+.third-div p{
+    color: rgb(255, 181, 181);
+    text-align: end;
+}

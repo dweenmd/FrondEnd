@@ -1,0 +1,47 @@
+/* Background for entire page */
+body {
+    background: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Heading styles */
+h1 {
+    color: #00ff00;
+}
+
+h2 {
+    color: rgba(246, 243, 243, 0.637); /* semi-transparent heading */
+}
+
+/* Container background */
+div {
+    background-color: rgba(220, 220, 12, 0.3);
+    padding: 20px;
+}
+
+/* Section with image + reduced opacity background */
+section {
+    position: relative;
+    z-index: 1;
+    color: rgb(172, 103, 103);
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* Transparent background image using ::before */
+section::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* control image transparency */
+    z-index: -1;
+}
