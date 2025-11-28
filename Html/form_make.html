@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form example</title>
+    <style>
+        label{
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form.. </h2>
+            <form>
+                <label for="name">Your Name:
+                    <input type="text" placeholder="write your name">
+
+                </label>
+                <label for="email">Your E-mail:
+                    <input type="email" placeholder="example@gmai.com">
+
+                </label>
+
+                <label for="phone">Your phone:
+                    <input type="text" placeholder="017********">
+
+                </label>
+
+                <fieldset>
+                    <legend>Pick one pitha form set</legend>
+                    <label for="chitoi">
+                        <input type="radio" name="pitha" id="chitoi">chitoi pitha
+                    </label>
+                    <label for="kholjai">
+                        <input type="radio" name="pitha" id="kholjai">
+                        kholojai pitha
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">
+                        vapa pitha
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri">
+                        puri
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick Your Bhorta</legend>
+                    <label for="Sorisa">
+                        <input type="checkbox" name="vorta" id="sorisha">Sorisha Bhorta 
+                    </label>
+                     <label for="Shutki">
+                        <input type="checkbox" name="vorta" id="shutki">Shutki Bhorta 
+                    </label>
+                    <label for="morich">
+                        <input type="checkbox" name="vorta" id="morich">Morich Bhorta
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="40" rows="10"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
