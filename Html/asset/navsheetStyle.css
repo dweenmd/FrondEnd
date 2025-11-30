@@ -1,0 +1,23 @@
+  body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .code-box {
+            background: #222;
+            color: #0f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            font-size: 15px;
+            overflow-x: auto;
+        }
+
+        code {
+            white-space: pre;
+        }
