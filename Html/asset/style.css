@@ -25,10 +25,82 @@ nav li:hover {
     background-color: #6B9080; /* hover color */
 }
 
+/* Links *//* Header */
+head {
+    text-align: center;
+}
+
+/* Main Nav */
+nav {
+    background: #A4C3B2;   /* soft green-grey */
+    padding: 1%;
+}
+
+/* UL styling */
+nav > ul {
+    display: flex;
+    justify-content: center;   /* center items horizontally */
+    align-items: center;       /* align vertically */
+    padding: 0;
+    margin: 0;
+}
+
+/* List Items */
+nav li {
+    list-style: none;
+    padding: 15px 25px;
+    position: relative;        /* IMPORTANT for dropdown */
+}
+
+/* Hover Effect */
+nav li:hover {
+    background-color: #6B9080; /* darker elegant green */
+}
+
 /* Links */
+nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Dropdown items */
+nav li .dropdown li {
+    padding: 10px 20px;
+}
+
+nav li .dropdown li:hover {
+    background: #A4C3B2;
+}
+
+/* Show dropdown on hover */
+nav li:hover .dropdown {
+    display: block;
+}
+
 nav li a {
     text-decoration: none;
     color: #000000;
     font-size: 18px;
     font-weight: bold;
+}
+/*nested menubar style */
+nav li .dropdown{
+    display: none;
+}
+nav li:hover .dropdown{
+    display: block;
+
+}
+/* Dropdown Styling */
+nav li .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;        /* appears under parent */
+    left: 0;
+    background: #CCE3DE;   /* light pastel color */
+    padding: 10px 0;
+    min-width: 150px;
+    border-radius: 5px;
 }

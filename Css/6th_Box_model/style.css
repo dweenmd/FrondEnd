@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #37597d;
+  background: #007bff;
 }
 /* fixed width */
 
@@ -30,7 +30,7 @@ body {
 
   margin: 5%;           
   padding: 2%;          
-  border: .4em solid rgb(208, 87, 208);
+  border: .4em solid rgb(208, 87, 208);//border e percentage kaj kore na
   box-shadow: 10px 10px 30px blueviolet;
 
   float: left;

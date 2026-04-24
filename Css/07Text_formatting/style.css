@@ -11,7 +11,7 @@ h1{
     text-align: center;
 }
 .one{
-    text-align: justify;
+    text-align:justify;
     text-align-last: center;
     writing-mode:vertical-lr;
 }
